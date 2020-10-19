@@ -1,0 +1,91 @@
+body{-ms-overflow-style:none; }
+body::-webkit-scrollbar { display:none; }
+
+@font-face{
+    font-family: noto-regular;
+    src: url('../font/NotoSansKR-Regular.otf');
+}
+@font-face{
+    font-family: noto-bold;
+    src: url('../font/NotoSansKR-Bold.otf');
+}
+.container{padding-left:80px;}
+.title > .container > h1 { 
+    font-size:55px;
+    color: white;
+    font-family: noto-bold;
+}
+.title{
+    background-image: url("../img/computer1.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+.title-info {
+    padding-top:100px;
+}
+.about-me{
+    background-color: white;
+    height:680px;
+    height:50%;
+    margin-top:50px;
+}
+.about-me > h1 {
+    font-family: noto-bold;
+    display:inline;
+}
+.about-me-img{ 
+    float:left;
+}
+.about-me-title{
+    font-family: noto-bold;
+    margin-bottom:15px;
+    margin-left:55px;
+}
+.about-me-positon{margin-top:5px;margin-bottom: 5px;}
+.about-me-info{
+    display:inline-block;
+    font-family: noto-regular;
+    width: 500px;
+    margin-left:20px;
+}
+.about-me-info > h1 {
+    display:inline;
+    font-family: noto-bold;
+}
+.about-me-info > p{
+    display:inline;
+    font-size:18px;
+    font-family: noto-regular;
+}
+.about-me-info > span{
+    display:block;
+    font-size:17px;
+    font-family: noto-regular;
+}
+.about-me-content{ margin-top:5px; }
+.about-me-content > span{
+    margin-left:3px;
+}
+.sub-title{
+    font-size:50px;
+    color: white;
+    font-family: noto-bold;
+}
+.introduce-title{
+    height:300px;
+    width:17%;
+    display:inline-block;
+    float:left;
+}
+.introduce-title > h3 { margin-left:80px;font-family: noto-regular;}
+.introduce-content{
+    height:300px;
+    width:70%;
+    float:left;
+    font-family:noto-regular;
+    font-size:16px;
+    margin-left:35px;
+    margin-top:25px;
+
+}
