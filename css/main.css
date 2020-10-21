@@ -40,7 +40,18 @@ body::-webkit-scrollbar { display:none; }
 .about-me-title{
     font-family: noto-bold;
     margin-bottom:15px;
-    margin-left:55px;
+    margin-left:60px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    display:inline-block;
+}
+.skill-title{
+    font-family: noto-bold;
+    margin-bottom:15px;
+    margin-left:80px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    display:inline-block;
 }
 .about-me-positon{margin-top:5px;margin-bottom: 5px;}
 .about-me-info{
@@ -77,15 +88,28 @@ body::-webkit-scrollbar { display:none; }
     width:17%;
     display:inline-block;
     float:left;
+    text-align:right;
+    margin-left:15px;
 }
-.introduce-title > h3 { margin-left:80px;font-family: noto-regular;}
+.introduce-title-content{
+    border-right: 1px solid black;
+    padding-right: 15px;
+}
+.introduce-title > h3 {font-family: noto-regular;}
 .introduce-content{
     height:300px;
     width:70%;
     float:left;
     font-family:noto-regular;
     font-size:16px;
-    margin-left:35px;
+    margin-left:30px;
     margin-top:25px;
-
+}
+.skill-group{
+    margin-top:6vh;
+}
+.skill-icon{
+    display:inline-block;
+    margin-right:20px;
+    margin-left:20px;
 }
